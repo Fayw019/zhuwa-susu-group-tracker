@@ -1,0 +1,8 @@
+{
+  "name": "susu-group-tracker",
+  "version": "1.0.0",
+  "description": "A rotating savings group tracker built with JavaScript",
+  "type": "module",
+  "private": true,
+  "scripts": {"start": "node server.js", "test": "node --test", "check": "node --check src/susu.js && node --check public/app.js && node --check server.js"}
+}
